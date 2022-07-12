@@ -19,7 +19,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class MainActivity :  AppCompatActivity() {
+class MainActivity :   AppCompatActivity() {
     lateinit var rec_response:RecyclerView
     lateinit var res:List<response_model>
     lateinit var adapter:responseAdapter
