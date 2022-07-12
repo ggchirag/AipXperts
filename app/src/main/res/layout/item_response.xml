@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:elevation="10dp"
+    android:background="@drawable/round"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/post_id"
+            android:layout_marginTop="10dp"
+            android:text="postId"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_marginTop="10dp"
+            android:text="Id"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_marginTop="10dp"
+            android:text="Email"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_marginTop="10dp"
+            android:text="Body"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
